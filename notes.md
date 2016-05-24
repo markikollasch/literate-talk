@@ -114,7 +114,7 @@ or somewhere else that makes rhetorical sense.
 # Some other things I want to mention
 
 [Racket](http://racket-lang.org/)'s literate programming tool,
-[`lp2`](https://docs.racket-lang.org/scribble/lp.html)
+[`lp2`](https://docs.racket-lang.org/scribble/lp.html),
 is built on Scribble, Racket's documentation tool.
 Scribble is both a library for rendering hypertext and an alternate syntax,
 effectively resulting in a markup language that is semantically identical to,
