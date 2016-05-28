@@ -1,10 +1,10 @@
 # What is literate programming?
 
 Literate programming is embedding a program's source code into a document describing the program.
-This is distinguished docstrings, in which a document describing a program is embedded into the program's source code.
+This is distinguished from docstrings, in which a document describing a program is embedded into the program's source code.
 However, literate programs are like docstrings in that the document renderer and the compiler both accept the same artifact as input.
 The important difference is that docstrings must conform to the structure required by the computer,
-whereas the _natural language_ of a literate program can be organized into a _natural structure_.
+whereas a literate program can be organized into a structure sensible to _natural language_.
 
 > Instead of imagining that our main task is to instruct a _computer_ what to do,
 > let us concentrate rather on explaining to _human beings_ what we want a computer to do.
@@ -124,3 +124,12 @@ and documentation rendered just like a normal Scribble file,
 without any preprocessing step or source mapping, and it can be debugged etc. with the same tools as the code.
 
 This makes Racket well-suited as a platform for an exploration of this concept.
+
+# What's the takeaway?
+
+It's not that we should all start exploring Extreme Literate Programming immediately.
+It's unclear that a satisfactory tool even exists, and making Pivotal Tracker literate may be strategically intractable.
+Rather the important lesson is:
+When we're looking for ways to improve our practices, it can be fruitful to look to the past for inspiration.
+Many historical concepts were never adopted and iterated upon not due to lack of merit, but only because they clashed with contemporary practices.
+In later times, when practices have matured, historical concepts may, if they haven't been forgotten, find their niche.
