@@ -1,19 +1,19 @@
 # Literate programming
 
-## Why?
+# Why?
 
 > Instead of imagining that our main task is to instruct a _computer_ what to do,
 > let us concentrate rather on explaining to _human beings_ what we want a computer to do.
 >
 <cite>Donald Knuth</cite>
 
-## What is it?
+# What is it?
 
 - Embedding a program's source code into a document describing the program
 - A programming paradigm emphasizing extreme readability
 - A kind of fancy preprocessor for pretty-printing
 
-## Like docstrings, but...
+# Like docstrings, but...
 
 - Code embedded in documentation instead of vice versa
 - Document structure independent of code structure
@@ -23,7 +23,7 @@
   "Keeping code and documentation together? Isn't that what a docstring is?"
 </div>
 
-## How do you do it?
+# How do you do it?
 
 - Write an essay in natural language with markup
 - Write chunks of code wherever it's rhetorically convenient
@@ -37,26 +37,22 @@
 The source code is only valid if you did it right.
 </div>
 
-## History
+# History
 
-- `WEB` invented by Donald Knuth in 1984 
-  - Pascal program and TeX document
-  - Accompanied by book
-- `CWEB` maintained by Donald Knuth and Silvio Levy, 1987-2001
-  - C, C++, and Java; TeX
-- `noweb` by Norman Ramsey, 1989-1999
-  - Language-agnostic; LaTeX, HTML, troff
-- `Literate` by Zachary Yedida, 2015-present
-  - Language-agnostic, Markdown-like syntax, source mapping
-- Racket `scribble/lp2` module
-  - Self-hosting system based on Scheme metaprogramming ("code is data")
+- _Literate Programming_ by Donald Knuth (1984)
+- `WEB` implementation (1984): Pascal program and TeX document
+- `CWEB` (1987):  C, C++, and Java; TeX
+- `noweb` by Norman Ramsey (1989): first language-agnostic system
+- Racket `scribble/lp2` module: Self-hosting Scheme library
+- `Literate` (2015): language-agnostic, Markdown-like syntax, source mapping
 
 <div class="notes">
   Source mapping to trace compiler errors back to lines in the literate source, not the emitted code
-  Racket version uses Racket itself for everything, including markup. Maybe it's the most promising for study because of its flexibility.
+
+  Racket version uses Racket itself for everything, including markup. Maybe it's the most promising for study because of its flexibility. Say "Code is Data"
 </div>
 
-## What's it good for?
+# What's it good for?
 
 - Extreme readability: human-readable natural-language text is first-class output
 - Clear thought: if the programmer explains the code, it must be explainable
@@ -66,10 +62,10 @@ The source code is only valid if you did it right.
   - Or "she must at least attempt to ensure it's explainable"
   - Many approaches to limiting documentation drift:
     - Agile development often foregoes documentation altogether
-    - Rust has executable docstrings that are unit tests
+    - Python and Rust has executable docstrings that are unit tests
 </div>
 
-## What's it not so good for?
+# What's it not so good for?
 
 - If you don't intend to produce a document, there's no value
 - Additional effort to write it
@@ -77,7 +73,7 @@ The source code is only valid if you did it right.
 - Increases toolchain complexity
 - Programmer must also be literate
 
-## Is there a place for LP in modern software development?
+# Is there a place for LP in modern software development?
 
 <div class="notes">
 DON'T ADVANCE YET.
@@ -88,9 +84,9 @@ Embed test cases and implementation directly within the story.
 Commit the whole thing to the repository.
 </div>
 
-## Literate issue tracking?
+# Literate issue tracking?
 
 - Issue tracker is a document
 - Embed test case in story instead of cross-referencing through revision numbers
 
-## Questions?
+# Questions?
